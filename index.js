@@ -45,7 +45,7 @@ makeSound = (html) => {
         var audio = new Audio('sounds/crash.mp3');
         audio.play();
     } else {
-        var audio = new Audio('sounds/kick-bass.mp3');
-        audio.play();
+        alert("this is not the right key! Press given ones.")
+        location.reload()
     }
 }
